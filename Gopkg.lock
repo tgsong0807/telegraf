@@ -476,6 +476,32 @@
   version = "0.2"
 
 [[projects]]
+  branch = "master"
+  digest = "1:6d18305cd3614ffdef3c64bd64401fe811a227b1cc3f182f40fe0fd1de009991"
+  name = "github.com/gophercloud/gophercloud"
+  packages = [
+    ".",
+    "internal",
+    "openstack",
+    "openstack/blockstorage/extensions/schedulerstats",
+    "openstack/blockstorage/extensions/volumetenants",
+    "openstack/blockstorage/v2/volumes",
+    "openstack/compute/v2/extensions/hypervisors",
+    "openstack/compute/v2/flavors",
+    "openstack/compute/v2/images",
+    "openstack/compute/v2/servers",
+    "openstack/identity/v2/tenants",
+    "openstack/identity/v2/tokens",
+    "openstack/identity/v3/projects",
+    "openstack/identity/v3/services",
+    "openstack/identity/v3/tokens",
+    "openstack/utils",
+    "pagination",
+  ]
+  pruneopts = ""
+  revision = "a498b89088a54cd586baec45e86dceb1308a2158"
+
+[[projects]]
   digest = "1:dbbeb8ddb0be949954c8157ee8439c2adfd8dc1c9510eb44a6e58cb68c3dce28"
   name = "github.com/gorilla/context"
   packages = ["."]
@@ -1338,6 +1364,16 @@
     "github.com/gobwas/glob",
     "github.com/golang/protobuf/proto",
     "github.com/google/go-cmp/cmp",
+    "github.com/gophercloud/gophercloud",
+    "github.com/gophercloud/gophercloud/openstack",
+    "github.com/gophercloud/gophercloud/openstack/blockstorage/extensions/schedulerstats",
+    "github.com/gophercloud/gophercloud/openstack/blockstorage/extensions/volumetenants",
+    "github.com/gophercloud/gophercloud/openstack/blockstorage/v2/volumes",
+    "github.com/gophercloud/gophercloud/openstack/compute/v2/extensions/hypervisors",
+    "github.com/gophercloud/gophercloud/openstack/compute/v2/flavors",
+    "github.com/gophercloud/gophercloud/openstack/compute/v2/servers",
+    "github.com/gophercloud/gophercloud/openstack/identity/v3/projects",
+    "github.com/gophercloud/gophercloud/openstack/identity/v3/services",
     "github.com/gorilla/mux",
     "github.com/hashicorp/consul/api",
     "github.com/influxdata/go-syslog/rfc5424",
